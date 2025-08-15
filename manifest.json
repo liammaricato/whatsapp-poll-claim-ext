@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "ZapPollClaim",
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/"],
+      "css": ["style.css"],
+      "js": ["main.js"]
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}
