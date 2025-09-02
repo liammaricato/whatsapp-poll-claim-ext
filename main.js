@@ -5,7 +5,7 @@ let claimNextPoll = false
 const injectBubbleEl = document.createElement('div')
 injectBubbleEl.id = 'claim-ext-bubble'
 injectBubbleEl.innerHTML = `
-    <img src="https://static.thenounproject.com/png/1103032-200.png" id="claim-ext-bubble-icon">
+    <img src="${chrome.runtime.getURL('icon.png')}" id="claim-ext-bubble-icon">
     <div id="claim-ext-bubble-content">
         <h3>Claim Extension</h3>
         <div id="claim-ext-bubble-content-body">
